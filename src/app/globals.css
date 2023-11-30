@@ -2,10 +2,49 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Metropolis';
+  src: url(fonts/TTF/Metropolis-Thin.ttf);
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'Metropolis';
+  src: url(fonts/TTF/Metropolis-Light.ttf);
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'Metropolis';
+  src: url(fonts/TTF/Metropolis-Regular.ttf);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Metropolis';
+  src: url(fonts/TTF/Metropolis-Medium.ttf);
+  font-weight: 500;
+}
+
+
+@font-face {
+  font-family: 'Metropolis';
+  src: url(fonts/TTF/Metropolis-Bold.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Metropolis';
+  src: url(fonts/TTF/Metropolis-Black.ttf);
+  font-weight: 900;
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --background-main-color: #282828;
+  --main-yellow: #DB8A10
 }
 
 @media (prefers-color-scheme: dark) {
@@ -17,11 +56,93 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: var(--background-main-color);
+  font-family: 'Metropolis';
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1590px;
+}
+
+.main-yellow-text {
+  color: #DB8A10;
+}
+
+.main-yellow-bg {
+  background-color: #DB8A10
+}
+
+.top-banner-section {
+  height: 100vh;
+}
+
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr))
+}
+
+.slider {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.slider::-webkit-scrollbar {
+  display: none;
+  /* Hide scrollbar for IE, Edge and Firefox */
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.left-arrow,
+.right-arrow {
+  background: url(/arrow.svg);
+  width: 10px;
+  height: 18px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.embla__container {
+  display: flex;
+}
+
+.embla__container {
+  display: flex;
+  flex-direction: row;
+  /* height: 200px; */
+}
+
+.categories-slider .embla__slide {
+  margin-right: 50px;
+}
+.grid-highlights .embla-slide  {
+ margin-right:20px ;
+}
+
+
+@media(max-width:989px) {
+
+  .mais-vendidos-catalog .embla-slide,
+  .categories-slider .embla__slide,
+  .grid-highlights .embla-slide {
+    width: 100%;
+  }
+}
+
+@media(min-width:990px) {
+
+  .categories-slider .embla__slide {
+    width: 359px;
+    height: 156px;
+  }
+
+  .grid-highlights .embla-slide {
+    width: 505px;
+  }
 }

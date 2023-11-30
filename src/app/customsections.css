@@ -1,0 +1,113 @@
+.banner-descontos-sony .banner-text-section .heading-section h1 {
+    font-weight: 900;
+    font-size: 96px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.banner-descontos-sony .banner-text-section .heading-section h1 span {
+    color: #C50B0B;
+    font-weight: bold;
+}
+
+.banner-descontos-sony .container .banner-text-section {
+    text-align: end;
+    align-items: end;
+    height: 100%;
+    justify-content: end;
+
+}
+
+.banner-descontos-sony .banner-text-section .subheading-section {
+    color: #fff;
+    font-size: 40px;
+    padding-bottom: 100px;
+}
+
+.banner-descontos-sony .banner-text-section .subheading-section span span {
+    font-weight: 900;
+    text-transform: uppercase;
+
+}
+
+.banner-descontos-sony .banner-text-section .timer-text {
+    font-size: 30px;
+    color: #FF004C;
+    text-transform: uppercase;
+    /* line-height: 15px; */
+}
+
+.banner-descontos-sony .banner-text-section .timer {
+
+    font-size: 144px;
+    font-weight: bold;
+    color: #FF049B;
+    mix-blend-mode: saturation;
+    padding-bottom: 2rem;
+
+}
+
+.grid-highlights {
+    position: relative;
+    top: -70px;
+}
+
+.grid-highlights .grid-item {
+    /* width: 505px; */
+    height: 275px;
+}
+
+.grid-highlights .grid-item img {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+}
+.destaques-da-semana {
+    background: linear-gradient(to bottom, #FFFFFF,#ffffff07);
+}
+.destaques-heading {
+    background: linear-gradient(to right, #00B4FF90, #FF01E7);
+    padding:15px 0 ;
+}
+
+.destaques-heading h1 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+
+
+
+
+
+.thumbnail-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.newsletter {
+    height: 570px;
+}
+.newsletter button {
+    background:linear-gradient(to right, #E9008C, #C70AB4)
+}
+
+@media(min-width:990px){
+    .product-card {
+        width: 301px;
+    }
+
+    .thumbnail-wrapper {
+        width: 100%;
+        height: 387px;
+    }
+}
+@media(max-width:989px) {
+    .thumbnail-wrapper {
+        width: 100%;
+        height: 300px;
+    }
+}

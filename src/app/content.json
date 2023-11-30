@@ -1,0 +1,291 @@
+{
+    "menu": [
+        {
+            "item": "Todas as categorias",
+            "href": "/produtos",
+            "image": "",
+            "subMenu": [
+                {
+                    "item": "PC",
+                    "href": ""
+                },
+                {
+                    "item": "Mobile",
+                    "href": ""
+                },
+                {
+                    "item": "Playstation",
+                    "href": ""
+                }
+            ]
+        },
+        {
+            "item": "PC",
+            "href": "/pc",
+            "image": "",
+            "subMenu": []
+        },
+        {
+            "item": "Mobile",
+            "href": "/mobile",
+            "image": "",
+            "subMenu": []
+        },
+        {
+            "item": "Playstation",
+            "href": "/playstation",
+            "image": "",
+            "subMenu": [
+                {
+                    "item": "Exclusivos",
+                    "href": ""
+                }
+            ]
+        },
+        {
+            "item": "Xbox",
+            "href": "/xbox",
+            "image": "",
+            "subMenu": [
+                {
+                    "item": "Exclusivos",
+                    "href": ""
+                }
+            ]
+        }
+    ],
+    "categories": [
+        {
+            "name": "rpg",
+            "image": "/rpg_category.png",
+            "href": "/"
+        },
+        {
+            "name": "ficção científica",
+            "image": "/ficcao_cientifica_category.png",
+            "href": "/"
+        },
+        {
+            "name": "esportes",
+            "image": "/esportes_category.png",
+            "href": "/"
+        },
+        {
+            "name": "terror",
+            "image": "/terror_category.png",
+            "href": "/"
+        },
+        {
+            "name": "rpg",
+            "image": "/rpg_category.png",
+            "href": "/"
+        }
+    ],
+    "products": [
+        {
+            "name": "Marvel's Spider-Man 2",
+            "highlight": true,
+            "newRelease": true,
+            "category": [],
+            "price": 0,
+            "brand": "",
+            "media": {
+                "images": [
+                    {
+                        "thumbnail": "/spider_man_thumbnail.webp",
+                        "variants": [],
+                        "banner": "/spider_man_banner.png"
+                    }
+                ],
+                "videos": []
+            },
+            "variants": [
+                "Playstation 5"
+            ],
+            "discount": 0
+        },
+        {
+            "name": "Alan Wake 2",
+            "highlight": false,
+            "newRelease": true,
+            "category": [],
+            "price": 0,
+            "brand": "",
+            "media": {
+                "images": [
+                    {
+                        "thumbnail": "/alan_wake_2_thumbnail.png",
+                        "variants": [],
+                        "banner": ""
+                    }
+                ],
+                "videos": []
+            },
+            "variants": [
+                "Playstation 5, Microsoft Windows, Xbox Series S/X"
+            ],
+            "discount": 0
+        },
+        {
+            "name": "Baldur's Gate 3",
+            "highlight": true,
+            "newRelease": false,
+            "category": [],
+            "price": 0,
+            "brand": "",
+            "media": {
+                "images": [
+                    {
+                        "thumbnail": "baldurs_gate_thumbnail.png",
+                        "variants": [],
+                        "banner": "baldurs_gate_banner.png"
+                    }
+                ],
+                "videos": []
+            },
+            "variants": [
+                "Playstation 5, Microsoft Windows, Xbox Series S/X"
+            ],
+            "discount": 0
+        },
+        {
+            "name": "The Legend of Zelda: Tears of the Kingdom",
+            "highlight": false,
+            "newRelease": true,
+            "category": [],
+            "price": 0,
+            "brand": "",
+            "media": {
+                "images": [
+                    {
+                        "thumbnail": "/zelda_tears_of_kingdom_thumbnail.png",
+                        "variants": [],
+                        "banner": ""
+                    }
+                ],
+                "videos": []
+            },
+            "variants": [
+                "Switch"
+            ],
+            "discount": 0
+        },
+        {
+            "name": "Starfield",
+            "highlight": true,
+            "newRelease": false,
+            "category": [],
+            "price": 0,
+            "brand": "",
+            "media": {
+                "images": [
+                    {
+                        "thumbnail": "/Capa_do_jogo_Starfield.jpg",
+                        "variants": [],
+                        "banner": "/starfield_banner.png"
+                    }
+                ],
+                "videos": []
+            },
+            "variants": [
+                "Microsoft Windows, Xbox Series S/X"
+            ],
+            "discount": 0
+        },
+        {
+            "name": "STAR WARS Jedi: Survivor DELUXE EDITION",
+            "highlight": false,
+            "newRelease": true,
+            "category": [],
+            "price": 0,
+            "brand": "",
+            "media": {
+                "images": [
+                    {
+                        "thumbnail": "/jedi_survivor_thumbnail.png",
+                        "variants": [],
+                        "banner": ""
+                    }
+                ],
+                "videos": []
+            },
+            "variants": [],
+            "discount": 0
+        }
+    ],
+    "banners": {
+        "topBanners": [
+            {
+                "title": "Descontos Sony",
+                "heading": "",
+                "subheading": [
+                    ""
+                ],
+                "background": {
+                    "color": "",
+                    "image": "/exclusivos_sony_bg.png",
+                    "mobileImage": "/exclusivos_sony_bg_mobile.png"
+                },
+                "images": [],
+                "cta": "",
+                "timer": {
+                    "title": "Promoção termina em:",
+                    "available": true,
+                    "time": "2026-12-31T23:59:59"
+                },
+                "size": "",
+                "textPosition": "right",
+                "imagePosition": "left"
+            }
+        ],
+        "middleBanners": [
+            {
+                "title": "Spider Man 2 Venom Banner",
+                "heading:": "",
+                "subheading": [],
+                "background": {
+                    "color": "",
+                    "image": "",
+                    "mobileImage": ""
+                },
+                "images": [
+                    {
+                        "desktop": "/spider_man_venom_banner.png",
+                        "mobile": "/spider_man_venom_banner_mobile.png"
+                    }
+                ],
+                "cta": "",
+                "timer": {
+                    "title": "",
+                    "available": false,
+                    "time": ""
+                },
+                "size": "",
+                "textPosition": "right",
+                "imagePosition": "left"
+            }
+        ],
+        "bottomBanners": [
+            {
+                "title": "",
+                "heading:": "",
+                "subheading": [],
+                "background": {
+                    "color": "",
+                    "image": "",
+                    "mobileImage": ""
+                },
+                "images": [],
+                "cta": "",
+                "timer": {
+                    "title": "",
+                    "available": false,
+                    "time": ""
+                },
+                "size": "",
+                "textPosition": "right",
+                "imagePosition": "left"
+            }
+        ]
+    }
+}
